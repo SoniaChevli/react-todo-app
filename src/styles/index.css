@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: powderblue;
+  height: 100%;
+  background: linear-gradient(powderblue, #080b3f);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#todoListMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-width: 2px;
+  width: 40%;
+  margin: auto;
+  overflow: hidden;
+  background: powderblue;
+  border-radius: 4px;
+  border-style: solid;
+  box-shadow: 5px 10px;
+  min-height: 500px;
+}
+
+.todoHeader {
+  font-family: "Bungee Shade", cursive;
+  font-size: 30px;
+  margin-bottom: -40px;
+  margin-top: 30px;
+}
+.btnOption {
+  height: 48px;
+  font-family: Trebuchet MS;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: Transparent;
+}
+
+.btnOption:focus {
+  outline: none;
+  color: #939090;
+}
+
+.todoCount {
+  font-size: 17px;
+  font-family: Courier New, monospace;
+  margin-top: 10px;
+}
+
+.inputText {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  width: 300px;
+  font-size: 20pt;
+  border-radius: 5px;
+  color: purple;
+  backkgrborder-color: transparent;
+}
+.inputText:focus {
+  outline: none;
+}
+
+.inputButton {
+  border-radius: 6px;
+  height: 48px;
+  width: 60px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-color: #d1e3e9;
+}
+.inputButton:focus {
+  outline: none;
+}
+
+.listItems {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 90%;
+}
+.itemElements {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  padding-left: 65px;
+}
+
+.listItem {
+  font-size: 20px;
+  margin: 10px;
+  max-width: 85%;
+  overflow: hidden;
+}
+.btnItem {
+  margin-left: auto;
+  padding-right: 130px;
+}
+.btnComplete:focus {
+  outline: none;
+}
+.btnDelete:focus {
+  outline: none;
+}
+.btnDelete {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.btnComplete {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  margin-left: auto;
+}
